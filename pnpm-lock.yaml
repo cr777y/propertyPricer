@@ -748,7 +748,7 @@ packages:
     name: '@simonwep/pickr'
     version: 1.8.2
     dependencies:
-      core-js: registry.npmjs.org/core-js@3.30.1
+      core-js: registry.npmjs.org/core-js@3.30.2
       nanopop: registry.npmjs.org/nanopop@2.3.0
     dev: false
 
@@ -1187,7 +1187,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: registry.npmjs.org/caniuse-lite@1.0.30001485
+      caniuse-lite: registry.npmjs.org/caniuse-lite@1.0.30001486
       electron-to-chromium: registry.npmjs.org/electron-to-chromium@1.4.385
       node-releases: registry.npmjs.org/node-releases@2.0.10
       update-browserslist-db: registry.npmjs.org/update-browserslist-db@1.0.11(browserslist@4.21.5)
@@ -1205,10 +1205,10 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  registry.npmjs.org/caniuse-lite@1.0.30001485:
-    resolution: {integrity: sha512-8aUpZ7sjhlOyiNsg+pgcrTTPUXKh+rg544QYHSvQErljVEKJzvkYkCR/hUFeeVoEfTToUtY9cUKNRC7+c45YkA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001485.tgz}
+  registry.npmjs.org/caniuse-lite@1.0.30001486:
+    resolution: {integrity: sha512-uv7/gXuHi10Whlj0pp5q/tsK/32J2QSqVRKQhs2j8VsDCjgyruAh/eEXHF822VqO9yT6iZKw3nRwZRSPBE9OQg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001486.tgz}
     name: caniuse-lite
-    version: 1.0.30001485
+    version: 1.0.30001486
 
   registry.npmjs.org/chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/chalk/-/chalk-2.4.2.tgz}
@@ -1267,10 +1267,10 @@ packages:
     dependencies:
       is-what: registry.npmjs.org/is-what@3.14.1
 
-  registry.npmjs.org/core-js@3.30.1:
-    resolution: {integrity: sha512-ZNS5nbiSwDTq4hFosEDqm65izl2CWmLz0hARJMyNQBgkUZMIF51cQiMvIQKA6hvuaeWxQDP3hEedM1JZIgTldQ==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/core-js/-/core-js-3.30.1.tgz}
+  registry.npmjs.org/core-js@3.30.2:
+    resolution: {integrity: sha512-uBJiDmwqsbJCWHAwjrx3cvjbMXP7xD72Dmsn5LOJpiRmE3WbBbN5rCqQ2Qh6Ek6/eOrjlWngEynBWo4VxerQhg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/core-js/-/core-js-3.30.2.tgz}
     name: core-js
-    version: 3.30.1
+    version: 3.30.2
     requiresBuild: true
     dev: false
 
@@ -1295,7 +1295,7 @@ packages:
       supports-color:
         optional: true
     dependencies:
-      ms: registry.npmjs.org/ms@2.1.2
+      ms: registry.npmjs.org/ms@2.1.3
     optional: true
 
   registry.npmjs.org/debug@4.3.4:
@@ -1719,6 +1719,13 @@ packages:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/ms/-/ms-2.1.2.tgz}
     name: ms
     version: 2.1.2
+    dev: true
+
+  registry.npmjs.org/ms@2.1.3:
+    resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/ms/-/ms-2.1.3.tgz}
+    name: ms
+    version: 2.1.3
+    optional: true
 
   registry.npmjs.org/nanoid@3.3.6:
     resolution: {integrity: sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/nanoid/-/nanoid-3.3.6.tgz}
@@ -1953,11 +1960,11 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  registry.npmjs.org/terser-webpack-plugin@5.3.7(webpack@5.82.0):
-    resolution: {integrity: sha512-AfKwIktyP7Cu50xNjXF/6Qb5lBNzYaWpU6YfoX3uZicTx0zTy0stDDCsvjDapKsSDvOeWo5MEq4TmdBy2cNoHw==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.7.tgz}
-    id: registry.npmjs.org/terser-webpack-plugin/5.3.7
+  registry.npmjs.org/terser-webpack-plugin@5.3.8(webpack@5.82.0):
+    resolution: {integrity: sha512-WiHL3ElchZMsK27P8uIUh4604IgJyAW47LVXGbEoB21DbQcZ+OuMpGjVYnEUaqcWM6dO8uS2qUbA7LSCWqvsbg==, registry: https://registry.yarnpkg.com/, tarball: https://registry.npmjs.org/terser-webpack-plugin/-/terser-webpack-plugin-5.3.8.tgz}
+    id: registry.npmjs.org/terser-webpack-plugin/5.3.8
     name: terser-webpack-plugin
-    version: 5.3.7
+    version: 5.3.8
     engines: {node: '>= 10.13.0'}
     peerDependencies:
       '@swc/core': '*'
@@ -2151,7 +2158,7 @@ packages:
       neo-async: registry.npmjs.org/neo-async@2.6.2
       schema-utils: registry.npmjs.org/schema-utils@3.1.2
       tapable: registry.npmjs.org/tapable@2.2.1
-      terser-webpack-plugin: registry.npmjs.org/terser-webpack-plugin@5.3.7(webpack@5.82.0)
+      terser-webpack-plugin: registry.npmjs.org/terser-webpack-plugin@5.3.8(webpack@5.82.0)
       watchpack: registry.npmjs.org/watchpack@2.4.0
       webpack-sources: registry.npmjs.org/webpack-sources@3.2.3
     transitivePeerDependencies:
